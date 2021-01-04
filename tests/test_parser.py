@@ -1,4 +1,4 @@
-from trackr.trackr import parse_arguments
+from trackr.main import parse_arguments
 
 
 class TestParser:
