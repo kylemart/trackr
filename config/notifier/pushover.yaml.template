@@ -11,6 +11,6 @@
 - name: pushover
   when: [stocked]
   kwargs:
+    api_key:
     user_key:
-    api_key: 
 ...
