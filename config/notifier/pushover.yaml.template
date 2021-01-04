@@ -1,0 +1,16 @@
+---
+# Pushover Notifier
+# 
+# To obtain an API key, you first need to register this as an app. This can be 
+# done from this page (https://pushover.net/apps/build). Afterwards, you can 
+# obtain your user key from this page (https://pushover.net/).
+# 
+# Create a copy of this template with the '.template' extension removed. In the
+# copy, populate the kwargs section with the appropriate values.
+#
+- name: pushover
+  when: [stocked]
+  kwargs:
+    user_key:
+    api_key: 
+...
